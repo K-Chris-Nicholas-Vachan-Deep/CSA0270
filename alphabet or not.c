@@ -4,12 +4,10 @@ int main()
 {
     char ch;
 
-    /* Input character from user */
+
     printf("Enter any character: ");
     scanf("%c", &ch);
 
-
-    /* Alphabet check */
     if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
     {
         printf("'%c' is alphabet.", ch);
